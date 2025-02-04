@@ -394,7 +394,7 @@ wget "https://raw.githubusercontent.com/hawshemi/Linux-Optimizer/main/linux-opti
 
 - دستور زیر فایل های پیش نیاز را نصب میکند و سپس اقدام به اجرای اسکریپت میکند. اگر مشکلی داشتید به صورت دستی هم میتوانید نصب کنید
 ```
-sudo apt install curl -y  && bash <(curl -s https://raw.githubusercontent.com/Azumi67/UDP2RAW_FEC/main/go.sh)
+sudo apt install curl -y  && bash <(curl -s https://raw.githubusercontent.com/saeideros/UDP2RAW_FEC/main/go.sh)
 ```
 
 - اگر به صورت دستی نصب کردید و پیش نیاز ها را هم دارید و میخواهید به صورت دستی هم اسکریپت را اجرا کنید میتوانید با دستور زیر اینکار را انجام دهید
@@ -402,7 +402,7 @@ sudo apt install curl -y  && bash <(curl -s https://raw.githubusercontent.com/Az
   
 ```
 rm udpfec.go
-sudo apt install wget -y && wget -O /etc/logo.sh https://raw.githubusercontent.com/Azumi67/UDP2RAW_FEC/main/logo.sh && chmod +x /etc/logo.sh && wget https://raw.githubusercontent.com/Azumi67/UDP2RAW_FEC/main/udpfec.go && go run udpfec.go
+sudo apt install wget -y && wget -O /etc/logo.sh https://raw.githubusercontent.com/saeideros/UDP2RAW_FEC/main/logo.sh && chmod +x /etc/logo.sh && wget https://raw.githubusercontent.com/saeideros/UDP2RAW_FEC/main/udpfec.go && go run udpfec.go
 ```
 ---------------------------------
 ![R23 (1)](https://github.com/Azumi67/FRP-V2ray-Loadbalance/assets/119934376/18d12405-d354-48ac-9084-fff98d61d91c)
